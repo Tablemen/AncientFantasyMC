@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "ancientfantasy:polished_tuff"
+    },
+    "1": {
+      "item": "ancientfantasy:polished_tuff"
+    },
+    "2": {
+      "item": "ancientfantasy:polished_tuff"
+    },
+    "3": {
+      "item": "ancientfantasy:polished_tuff"
+    },
+    "4": {
+      "item": "ancientfantasy:polished_tuff"
+    },
+    "5": {
+      "item": "ancientfantasy:polished_tuff"
+    }
+  },
+  "result": {
+    "item": "ancientfantasy:polished_tuff_wall",
+    "count": 6
+  }
+}

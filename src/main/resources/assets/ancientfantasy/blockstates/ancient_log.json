@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "ancientfantasy:block/ancient_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "ancientfantasy:block/ancient_log"
+    },
+    "axis=z": {
+      "model": "ancientfantasy:block/ancient_log",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ancientfantasy:block/polished_tuff_slab"
+    },
+    "type=top": {
+      "model": "ancientfantasy:block/polished_tuff_slab_top"
+    },
+    "type=double": {
+      "model": "ancientfantasy:block/polished_tuff_slab_full"
+    }
+  }
+}

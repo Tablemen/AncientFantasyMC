@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t134121.237"
+  }
+}

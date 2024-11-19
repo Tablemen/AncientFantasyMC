@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t231823.700",
+    "particle": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t231823.700"
+  }
+}

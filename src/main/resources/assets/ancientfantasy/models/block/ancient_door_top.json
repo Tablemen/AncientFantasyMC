@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "bottom": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t223451.467",
+    "top": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t223125.467"
+  }
+}

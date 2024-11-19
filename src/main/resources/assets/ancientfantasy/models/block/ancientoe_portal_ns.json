@@ -1,0 +1,40 @@
+{
+  "textures": {
+    "particle": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t230729.722",
+    "portal": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t230729.722"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        6
+      ],
+      "to": [
+        16,
+        16,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#portal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#portal"
+        }
+      }
+    }
+  ]
+}

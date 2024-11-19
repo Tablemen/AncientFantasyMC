@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t223911.847",
+    "particle": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t223911.847"
+  }
+}

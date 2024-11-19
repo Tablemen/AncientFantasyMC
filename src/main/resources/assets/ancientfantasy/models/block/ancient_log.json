@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t221552.869",
+    "up": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t221552.869",
+    "north": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t221320.930",
+    "east": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t221320.930",
+    "south": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t221320.930",
+    "west": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t221320.930",
+    "particle": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t221552.869"
+  }
+}

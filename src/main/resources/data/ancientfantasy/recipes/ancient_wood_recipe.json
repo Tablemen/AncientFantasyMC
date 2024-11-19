@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "ancientfantasy:ancient_log"
+    },
+    "1": {
+      "item": "ancientfantasy:ancient_log"
+    },
+    "2": {
+      "item": "ancientfantasy:ancient_log"
+    },
+    "3": {
+      "item": "ancientfantasy:ancient_log"
+    }
+  },
+  "result": {
+    "item": "ancientfantasy:ancient_wood",
+    "count": 4
+  }
+}

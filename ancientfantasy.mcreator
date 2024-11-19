@@ -1,0 +1,823 @@
+{
+  "mod_elements": [
+    {
+      "name": "TuffPillars",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tuff_pillars",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientfantasy/block/TuffPillarsBlock.java",
+          "src/main/resources/assets/ancientfantasy/blockstates/tuff_pillars.json",
+          "src/main/resources/assets/ancientfantasy/models/block/tuff_pillars.json",
+          "src/main/resources/assets/ancientfantasy/models/item/tuff_pillars.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DevItem0001",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_item_0001",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientfantasy/item/DevItem0001Item.java",
+          "src/main/resources/assets/ancientfantasy/models/item/dev_item_0001.json"
+        ]
+      },
+      "path": "~/Items/DevItems"
+    },
+    {
+      "name": "AncientFantasy",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fantasy",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PolishedTuffRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancientfantasy/recipes/polished_tuff_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedTuff",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancientfantasy/blockstates/polished_tuff.json",
+          "src/main/resources/assets/ancientfantasy/models/item/polished_tuff.json",
+          "src/main/java/net/mcreator/ancientfantasy/block/PolishedTuffBlock.java",
+          "src/main/resources/assets/ancientfantasy/models/block/polished_tuff.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "PolishedTuffSlab",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancientfantasy/models/block/polished_tuff_slab_full.json",
+          "src/main/java/net/mcreator/ancientfantasy/block/PolishedTuffSlabBlock.java",
+          "src/main/resources/assets/ancientfantasy/models/block/polished_tuff_slab.json",
+          "src/main/resources/assets/ancientfantasy/models/item/polished_tuff_slab.json",
+          "src/main/resources/assets/ancientfantasy/models/block/polished_tuff_slab_top.json",
+          "src/main/resources/assets/ancientfantasy/blockstates/polished_tuff_slab.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "PolishedTuffSlabRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancientfantasy/recipes/polished_tuff_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TuffPillarsRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tuff_pillars_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancientfantasy/recipes/tuff_pillars_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AncientWoodPlanks",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wood_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancientfantasy/models/item/ancient_wood_planks.json",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wood_planks.json",
+          "src/main/resources/assets/ancientfantasy/blockstates/ancient_wood_planks.json",
+          "src/main/java/net/mcreator/ancientfantasy/block/AncientWoodPlanksBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AncientWoodenSlab",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wooden_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wooden_slab.json",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wooden_slab_full.json",
+          "src/main/resources/assets/ancientfantasy/models/item/ancient_wooden_slab.json",
+          "src/main/java/net/mcreator/ancientfantasy/block/AncientWoodenSlabBlock.java",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wooden_slab_top.json",
+          "src/main/resources/assets/ancientfantasy/blockstates/ancient_wooden_slab.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AncientWoodenSlabRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wooden_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancientfantasy/recipes/ancient_wooden_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TuffGolem",
+      "type": "livingentity",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tuff_golem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientfantasy/entity/TuffGolemEntity.java",
+          "src/main/java/net/mcreator/ancientfantasy/client/renderer/TuffGolemRenderer.java",
+          "src/main/resources/assets/ancientfantasy/models/item/tuff_golem_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
+        ]
+      }
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      }
+    },
+    {
+      "name": "PlankItems",
+      "type": "tag",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/planks.json"
+        ]
+      }
+    },
+    {
+      "name": "AncientLog",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientfantasy/block/AncientLogBlock.java",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_log.json",
+          "src/main/resources/assets/ancientfantasy/models/item/ancient_log.json",
+          "src/main/resources/assets/ancientfantasy/blockstates/ancient_log.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AncientWoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wood_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancientfantasy/recipes/ancient_wood_planks_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AncientWoodenStairs",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wooden_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wooden_stairs_outer.json",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wooden_stairs.json",
+          "src/main/resources/assets/ancientfantasy/models/item/ancient_wooden_stairs.json",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wooden_stairs_inner.json",
+          "src/main/resources/assets/ancientfantasy/blockstates/ancient_wooden_stairs.json",
+          "src/main/java/net/mcreator/ancientfantasy/block/AncientWoodenStairsBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AncientWoodenButton",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wooden_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wooden_button_inventory.json",
+          "src/main/resources/assets/ancientfantasy/blockstates/ancient_wooden_button.json",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wooden_button.json",
+          "src/main/resources/assets/ancientfantasy/models/item/ancient_wooden_button.json",
+          "src/main/java/net/mcreator/ancientfantasy/block/AncientWoodenButtonBlock.java",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wooden_button_pressed.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AncientWoodenFence",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wooden_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wooden_fence.json",
+          "src/main/resources/assets/ancientfantasy/models/item/ancient_wooden_fence.json",
+          "src/main/java/net/mcreator/ancientfantasy/block/AncientWoodenFenceBlock.java",
+          "src/main/resources/assets/ancientfantasy/blockstates/ancient_wooden_fence.json",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wooden_fence_inventory.json",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wooden_fence_post.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AncientWoodenPressurePlate",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wooden_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientfantasy/block/AncientWoodenPressurePlateBlock.java",
+          "src/main/resources/assets/ancientfantasy/models/item/ancient_wooden_pressure_plate.json",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wooden_pressure_plate_down.json",
+          "src/main/resources/assets/ancientfantasy/blockstates/ancient_wooden_pressure_plate.json",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wooden_pressure_plate.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AncientWoodenFenceGate",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wooden_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancientfantasy/models/item/ancient_wooden_fence_gate.json",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wooden_fence_gate_wall.json",
+          "src/main/java/net/mcreator/ancientfantasy/block/AncientWoodenFenceGateBlock.java",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wooden_fence_gate_open.json",
+          "src/main/resources/assets/ancientfantasy/blockstates/ancient_wooden_fence_gate.json",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wooden_fence_gate.json",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wooden_fence_gate_wall_open.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AncientDoor",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_door_bottom.json",
+          "src/main/resources/assets/ancientfantasy/blockstates/ancient_door.json",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_door_top.json",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_door_bottom_hinge.json",
+          "src/main/java/net/mcreator/ancientfantasy/block/AncientDoorBlock.java",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_door_top_hinge.json",
+          "src/main/resources/assets/ancientfantasy/models/item/ancient_door.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AncientTrapdoor",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_trapdoor_open.json",
+          "src/main/resources/assets/ancientfantasy/models/item/ancient_trapdoor.json",
+          "src/main/resources/assets/ancientfantasy/blockstates/ancient_trapdoor.json",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_trapdoor.json",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_trapdoor_top.json",
+          "src/main/java/net/mcreator/ancientfantasy/block/AncientTrapdoorBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "PolishedTuffPressurePlate",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancientfantasy/models/item/polished_tuff_pressure_plate.json",
+          "src/main/resources/assets/ancientfantasy/models/block/polished_tuff_pressure_plate.json",
+          "src/main/resources/assets/ancientfantasy/blockstates/polished_tuff_pressure_plate.json",
+          "src/main/java/net/mcreator/ancientfantasy/block/PolishedTuffPressurePlateBlock.java",
+          "src/main/resources/assets/ancientfantasy/models/block/polished_tuff_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "PolishedTuffPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancientfantasy/recipes/polished_tuff_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AncientWoodenStairsRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wooden_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancientfantasy/recipes/ancient_wooden_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AncientWoodenFenceRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wooden_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancientfantasy/recipes/ancient_wooden_fence_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AncientWoodenButtonRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wooden_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancientfantasy/recipes/ancient_wooden_button_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AncientWoodenFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wooden_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancientfantasy/recipes/ancient_wooden_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AncientWoodenPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wooden_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancientfantasy/recipes/ancient_wooden_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AncientDoorRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancientfantasy/recipes/ancient_door_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AncientTrapdoorRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancientfantasy/recipes/ancient_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AncientWood",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancientfantasy/models/item/ancient_wood.json",
+          "src/main/java/net/mcreator/ancientfantasy/block/AncientWoodBlock.java",
+          "src/main/resources/assets/ancientfantasy/blockstates/ancient_wood.json",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_wood.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AncientWoodPlanksRecipewithWood",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wood_planks_recipewith_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancientfantasy/recipes/ancient_wood_planks_recipewith_wood.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AncientWoodRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancientfantasy/recipes/ancient_wood_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fence_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/fences.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedTuffWall",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancientfantasy/models/block/polished_tuff_wall.json",
+          "src/main/resources/assets/ancientfantasy/models/block/polished_tuff_wall_side_tall.json",
+          "src/main/resources/assets/ancientfantasy/blockstates/polished_tuff_wall.json",
+          "src/main/resources/assets/ancientfantasy/models/item/polished_tuff_wall.json",
+          "src/main/resources/assets/ancientfantasy/models/block/polished_tuff_wall_inventory.json",
+          "src/main/java/net/mcreator/ancientfantasy/block/PolishedTuffWallBlock.java",
+          "src/main/resources/assets/ancientfantasy/models/block/polished_tuff_wall_post.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "PolishedTuffWallRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_tuff_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancientfantasy/recipes/polished_tuff_wall_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Ancientoe",
+      "type": "dimension",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancientfantasy/dimension/ancientoe.json",
+          "src/main/java/net/mcreator/ancientfantasy/item/AncientoeItem.java",
+          "src/main/resources/assets/ancientfantasy/models/block/ancientoe_portal_ew.json",
+          "src/main/java/net/mcreator/ancientfantasy/world/teleporter/AncientoePortalShape.java",
+          "src/main/java/net/mcreator/ancientfantasy/block/AncientoePortalBlock.java",
+          "src/main/resources/assets/ancientfantasy/models/block/ancientoe_portal_ns.json",
+          "src/main/resources/assets/ancientfantasy/blockstates/ancientoe_portal.json",
+          "src/main/java/net/mcreator/ancientfantasy/world/dimension/AncientoeDimension.java",
+          "src/main/java/net/mcreator/ancientfantasy/world/teleporter/AncientoeTeleporter.java",
+          "src/main/resources/assets/ancientfantasy/models/item/ancientoe.json",
+          "src/main/resources/data/ancientfantasy/dimension_type/ancientoe.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "AncientForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientfantasy/world/biome/AncientForestBiome.java"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "AncientLeaves",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ancientfantasy/block/AncientLeavesBlock.java",
+          "src/main/resources/assets/ancientfantasy/models/block/ancient_leaves.json",
+          "src/main/resources/assets/ancientfantasy/models/item/ancient_leaves.json",
+          "src/main/resources/assets/ancientfantasy/blockstates/ancient_leaves.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "AncientFlintAndSteelRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_flint_and_steel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ancientfantasy/recipes/ancient_flint_and_steel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AshenCobblestone",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashen_cobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ancientfantasy/models/block/ashen_cobblestone.json",
+          "src/main/resources/assets/ancientfantasy/blockstates/ashen_cobblestone.json",
+          "src/main/java/net/mcreator/ancientfantasy/block/AshenCobblestoneBlock.java",
+          "src/main/resources/assets/ancientfantasy/models/item/ashen_cobblestone.json"
+        ]
+      },
+      "path": "~/Blocks"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "oldstonebreak",
+      "files": [
+        "stone1",
+        "stone2",
+        "stone3",
+        "stone4"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "oldstonestep",
+      "files": [
+        "stone1",
+        "stone2",
+        "stone3",
+        "stone4",
+        "stone5",
+        "stone6"
+      ],
+      "category": "block",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.ancientfantasy.tuff_pillars": "Tuff Pillars",
+      "block.ancientfantasy.ancient_log": "Ancient Log",
+      "block.ancientfantasy.polished_tuff_pressure_plate": "Polished Tuff Pressure Plate",
+      "block.ancientfantasy.polished_tuff_wall": "Polished Tuff Wall",
+      "block.ancientfantasy.ancient_wood": "Ancient Wood",
+      "item.ancientfantasy.dev_item_0001": "DevItem0001",
+      "subtitles.oldstonebreak": "",
+      "block.ancientfantasy.ancient_wooden_stairs": "Ancient Wooden Stairs",
+      "biome.ancientfantasy.ancient_forest": "Ancient Forest",
+      "block.ancientfantasy.polished_tuff_slab": "Polished Tuff Slab",
+      "item.ancientfantasy.ancientoe": "Ancient Flint \u0026 Steel",
+      "item.ancientfantasy.tuff_golem_spawn_egg": "Tuff Golem Spawn Egg",
+      "block.ancientfantasy.ancient_door": "Ancient Wooden Door",
+      "block.ancientfantasy.polished_tuff": "Polished Tuff",
+      "block.ancientfantasy.ancient_wood_planks": "Ancient Wood Planks",
+      "block.ancientfantasy.ancient_wooden_button": "Ancient Wooden Button",
+      "subtitles.oldstonestep": "",
+      "entity.ancientfantasy.tuff_golem": "Tuff Golem",
+      "block.ancientfantasy.ancient_wooden_fence_gate": "Ancient Wooden Fence Gate",
+      "block.ancientfantasy.ashen_cobblestone": "Ashen Cobblestone",
+      "itemGroup.tabancient_fantasy": "Ancient Fantasy",
+      "block.ancientfantasy.ancient_wooden_slab": "Ancient Wood Planks",
+      "block.ancientfantasy.ancient_wooden_pressure_plate": "Ancient Wooden Pressure Plate",
+      "block.ancientfantasy.ancient_trapdoor": "Ancient Wooden Trapdoor",
+      "block.ancientfantasy.ancient_leaves": "Ancient Leaves",
+      "block.ancientfantasy.ancient_wooden_fence": "Ancient Wooden Fence"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "DevItems",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": []
+      },
+      {
+        "name": "Dimensions",
+        "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "ancientfantasy",
+    "modName": "Ancient Fantasy",
+    "version": "1.0.0",
+    "author": "user, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.ancientfantasy",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

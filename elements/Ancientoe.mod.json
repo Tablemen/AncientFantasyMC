@@ -1,0 +1,50 @@
+{
+  "_fv": 47,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:AncientForest"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:AshenCobblestone"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -13552842,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "Blocks.DEEPSLATE_BRICKS"
+    },
+    "portalParticles": {
+      "value": "ENCHANTMENT_TABLE"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Ancient Flint & Steel",
+    "specialInfo": [
+      "A strange Flint & Steel"
+    ],
+    "igniterTab": {
+      "value": "CUSTOM:AncientFantasy"
+    },
+    "texture": "pixil-frame-0_-_2024-11-14t231040.885",
+    "portalTexture": "pixil-frame-0_-_2024-11-14t230729.722",
+    "enablePortal": true
+  }
+}

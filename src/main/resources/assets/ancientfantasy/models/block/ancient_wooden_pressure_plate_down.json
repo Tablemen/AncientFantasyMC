@@ -1,0 +1,6 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t134121.237"
+  }
+}

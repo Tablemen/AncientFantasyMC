@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ancientfantasy:block/ancient_wooden_slab"
+    },
+    "type=top": {
+      "model": "ancientfantasy:block/ancient_wooden_slab_top"
+    },
+    "type=double": {
+      "model": "ancientfantasy:block/ancient_wooden_slab_full"
+    }
+  }
+}

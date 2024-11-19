@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t122111.013",
+    "particle": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t122111.013"
+  }
+}

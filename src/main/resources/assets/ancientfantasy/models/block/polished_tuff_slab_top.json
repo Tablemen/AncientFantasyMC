@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t122111.013",
+    "top": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t122111.013",
+    "side": "ancientfantasy:blocks/pixil-frame-0_-_2024-11-14t122111.013"
+  }
+}

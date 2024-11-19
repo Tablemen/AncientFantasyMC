@@ -1,0 +1,50 @@
+{
+  "oldstonebreak": {
+    "sounds": [
+      {
+        "name": "ancientfantasy:stone1",
+        "stream": false
+      },
+      {
+        "name": "ancientfantasy:stone2",
+        "stream": false
+      },
+      {
+        "name": "ancientfantasy:stone3",
+        "stream": false
+      },
+      {
+        "name": "ancientfantasy:stone4",
+        "stream": false
+      }
+    ]
+  },
+  "oldstonestep": {
+    "sounds": [
+      {
+        "name": "ancientfantasy:stone1",
+        "stream": false
+      },
+      {
+        "name": "ancientfantasy:stone2",
+        "stream": false
+      },
+      {
+        "name": "ancientfantasy:stone3",
+        "stream": false
+      },
+      {
+        "name": "ancientfantasy:stone4",
+        "stream": false
+      },
+      {
+        "name": "ancientfantasy:stone5",
+        "stream": false
+      },
+      {
+        "name": "ancientfantasy:stone6",
+        "stream": false
+      }
+    ]
+  }
+}

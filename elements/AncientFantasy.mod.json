@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Ancient Fantasy",
+    "icon": {
+      "value": "CUSTOM:DevItem0001"
+    },
+    "showSearch": false
+  }
+}
